@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
     def test_saarc(self):
         ans = solve.solve('southern_asia.csv')
         southern_asia = ans[2]
-        self.assertEqual(len(southern_asia.keys()), 12, "Extra Entries, check"
+        self.assertEqual(len(southern_asia.keys()), 11, "Extra Entries, check"
                          + " the function filtering values for southern asian"
                          + " countries population")
 
@@ -27,5 +27,5 @@ class Test(unittest.TestCase):
         ans = solve.solve('asia.csv')
         southern_asia = ans[3]
         self.assertEqual(len(southern_asia.keys()), 11, "Extra Entries,check" +
-                         + "the function filtering values for asian" +
+                         "the function filtering values for asian" +
                          " countries population 2004-2014")

@@ -1,13 +1,11 @@
-# UN-Population
-It converts raw open data, country and year wise population estimates, into charts. 
+# UN-Population Testing
+Project is for testing a UN-Population on small sets of data. 
 ### Whats it Does
 
 ---
-
-  - Plot the India population over years.
-  - Plot Bar Chart of population of ASEAN countries For the year   2014.
-  - Over the years, TOTAL population of SAARC countries.
-  - Plot population of ASEAN  countries as groups over the years 2004 - 2014.
+  - It tests the code is giving output correctly or wrong.
+  - Prints the exact number of  test cases passed and failed.
+  - Prints the message which will indicate the what changes should do in a code to increase the accuracy of program.
  
 ### Getting Started
  
@@ -46,16 +44,13 @@ source venv/bin/activate
   ```python
      git clone git@gitlab.com:mountblue/cohort-17-python/hemant-patil/un-population.git
   ```
-  - Download dataset from following link
-    - [Click here to Download Dataset](https://datahub.io/core/population-growth-estimates-and-projections/r/population-estimates.csv)
-    - Move the dataset to project directory.
 
   - Go to the Virtual Environment section and follow the steps
-    - <a href="#Virtual Environment
+    - <a href="#virtual-environment
 ">Install virtual environment </a>
-    - <a href="#Virtual Environment
+    - <a href="#virtual-environment
 ">create virtual environment </a> 
-    - <a href="#Virtual Environment
+    - <a href="#virtual-environment
 ">activate virtual environment </a> 
   - Install all the required packages.
   ```
@@ -63,28 +58,11 @@ source venv/bin/activate
   ```
   - To run the program
   ```
-  python UN.py
+  python3 -m unittest testing
   ```
- - Enter your choice.
- ```
-  Enter your choice : 
-1. India's population Vs years
-2. South Asian Counties Population of 2014
-3. SAARC Countries Population Vs year
-4. Grouped bar graph of Asian Countries between year 2004-2014
-5. Exit
- ```
-- Get the Output
+ 
 
  
-   
-  
-  
----
-
-#### Output
-   Click on output.png or 
-   [click here](https://github.com/thehemantpatil/UNPopulation/blob/main/output.png)
 
 <hr>
 
