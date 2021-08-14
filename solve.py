@@ -3,8 +3,9 @@ import csv
 india, south_asia, saarc, grouped_asian = {}, {}, {}, {}
 
 
-def solve():
-    with open('population.csv') as pop_table:
+def solve(fname):
+    file_name = fname
+    with open(file_name) as pop_table:
         table = csv.reader(pop_table)
 
         # this for loop is doing structurize data needed for plotting graph
@@ -44,3 +45,4 @@ def solve():
                 if(len(india.keys()) != 0 and len(south_asia.keys()) != 0 and
                    len(saarc.keys()) == 10 and len(grouped_asian.keys()) != 0):
                     break
+    return([india, south_asia, saarc, grouped_asian])
