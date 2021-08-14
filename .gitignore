@@ -1,3 +1,9 @@
 /population.csv
 /hems
-/__pycache__/
+/__pycache__
+/plotting.py
+/saarc.py
+/south_asia.py
+/south_asia.py
+/un-population
+/india_plot.py
