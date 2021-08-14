@@ -60,8 +60,14 @@ source venv/bin/activate
   ```
   python3 -m unittest testing
   ```
- 
+ - If code passed all the test cases, it will print "OK"
 
+
+ ![image](https://github.com/thehemantpatil/Un_Population_testing/blob/testing/ok.png)
+
+ - If code failed, it prints the No. of test cases failed and respective message.
+ 
+ ![image](https://github.com/thehemantpatil/Un_Population_testing/blob/testing/failed.png)
  
 
 <hr>
