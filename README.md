@@ -42,7 +42,7 @@ source venv/bin/activate
 #### To Execute the program
   - To clone project copy and paste following link into terminal.
   ```python
-     git clone git@gitlab.com:mountblue/cohort-17-python/hemant-patil/un-population.git
+     https://github.com/thehemantpatil/Un_Population_testing.git
   ```
 
   - Go to the Virtual Environment section and follow the steps
